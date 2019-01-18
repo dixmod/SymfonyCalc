@@ -1,0 +1,8 @@
+services:
+  CalcBundle\Service\Calcs\Local\Calc: ~
+  CalcBundle\Command\CalcCommand:
+    autowire: true
+    autoconfigure: true
+    arguments: ['@CalcBundle\Service\Calcs\Local\Calc']
+    tags:
+    - { name: console.command }
