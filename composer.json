@@ -3,6 +3,12 @@
   "name": "SymfonyCalc",
   "description": "Symfony calc",
   "license": "proprietary",
+  "authors": [
+	{
+	  "name": "dixmod",
+	  "email": "dixmod@gmail.com"
+	}
+  ],
   "require": {
 	"php": "^7.2",
 	"ext-ctype": "*",
