@@ -1,6 +1,6 @@
 {
   "type": "symfony-bundle",
-  "name": "SymfonyCalc",
+  "name": "dixmod/SymfonyCalc",
   "description": "Symfony calc",
   "license": "proprietary",
   "authors": [
